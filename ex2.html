@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      body {
+        border: 1px solid grey;
+      }
+
+      header, nav, main, aside {
+        margin: 1px;
+        padding: 10px;
+        border: 1px solid grey;
+      }
+
+      header {
+        height: 100px;
+      }
+
+      nav {
+        width: 150px;
+      }
+
+      section {
+        display: flex;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      aside {
+        width: 150px;
+      }
+<asd>
+      h1 {
+        text-align: center;
+      }
+
+      .img-krakow {
+        float: right;
+        width: 30%;
+        height: 30%;
+        margin: 0 0 5px 10px;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      input#username, input#password {
+        width: 150px;
+      }
+
+      table#schedule {
+        table-layout: auto;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Guide to the City</h1>
+    </header>
+    <section>
+      <nav>
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="http://example.com/">Home</a></li>
+          <li><a href="http://example.com/">Hotels</a></li>
+          <li><a href="http://example.com/">Restaurants</a></li>
+          <li><a href="http://example.com/">Contact</a></li>
+        </ul>
+      </nav>
+      <main>
+        <h2 align="center">Kraków</h2>
+        <p>Kraków (Polish pronunciation: [ˈkrakuf] (About this sound listen)), also spelled Cracow or Krakow (UK: /ˈkrækaʊ/; US: /ˈkrɑː-/),[2][3] is
+          <img src="https://www.adventurouskate.com/wp-content/uploads/2017/01/DSCF9597.jpg" alt="Krakow photo" class="img-krakow">
+           the second largest and one of the oldest cities in Poland. Situated on the Vistula River (Polish: Wisła) in the Lesser Poland (Polish: Małopolska) region, the city dates back to the 7th century.[4] Kraków has traditionally been one of the leading centres of Polish academic, cultural and artistic life and is one of Poland's most important economic hubs. It was the capital of the Crown of the Kingdom of Poland from 1038 to 1569; the Polish–Lithuanian Commonwealth from 1569 to 1596[5], the Free City of Kraków from 1815 to 1846; the Grand Duchy of Cracow from 1846 to 1918; and Kraków Voivodeship from the 14th century to 1998. It has been the capital of Lesser Poland Voivodeship since 1999. It began as a hamlet on Wawel Hill and was already being reported as a busy trading centre of Slavonic Europe in 965.[4] The city has a population of approximately 760,000, with approximately 8 million additional people living within a 100 km (62 mi) radius of its main square.[6] After the invasion of Poland by the Nazi Regime at the start of World War II, the newly defined Distrikt Krakau (Kraków District) became the capital of Germany's General Government. The Jewish population of the city was forced into a walled zone known as the Kraków Ghetto, from which they were sent to German extermination camps such as the nearby Auschwitz never to return, and the Nazi concentration camps like Płaszów.[7]
+        <ol>
+          <li>Polish</li>
+          <li>Information</li>
+        </ol>
+        </p>
+        <h3>Tonight in Kraków:</h3>
+        <table id=schedule>
+          <tr>
+            <td><b>Event</b></td>
+            <td><b>Location</b></td>
+            <td><b>Time</b></td>
+          </tr>
+          <tr>
+            <td>Archieve on Tour</td>
+            <td>Forty Klepartz</td>
+            <td>20:00</td>
+          </tr>
+          <tr>
+            <td>Traditional Songs</td>
+            <td>Main Square</td>
+            <td>18:00</td>
+          </tr>
+        </table>
+      </main>
+      <aside>
+        <form>
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+          </div>
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password">
+          </div>
+
+          <div>
+            <select>
+              <option value="Admin">Admin</option>
+              <option value="User">User</option>
+              <option value="Guest">Guest</option>
+            </select>
+          </div>
+
+          <div>
+            <input type="checkbox" id="sign">
+            <label for="sign">Keep signed in</label>
+          </div>
+
+          <div>
+            <button type="submit">Sign-In</button>
+          </div>
+        </form>
+      </aside>
+    </section>
+  </body>
+</html>
